@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+}
+
+h1, h2 {
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    border: 2px solid aqua;
+    
+}
+
+.first {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ height: 900px;
+    background-image: url('./photos/3163.jpg');
+    background-size: 1200px 900px;
+    opacity: 0.8;
+}
+
+.header {
+    align-self: center;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    color: #fff;
+    margin-bottom: 0;
+   
+    margin-top: 0px;
+    font-size: 56px;
+    0.01em*/ line-height: 120%;
+    line-height: 110%;
+    text-shadow: 5px 0px 2px rgb(255 0 255 / 50%), -4px 0px 5px rgb(0 255 191 / 50%), 5px 0px 10px rgb(49 122 255);
+    background: transparent;
+    vertical-align: baseline;
+}
+
+/* ADD THE CASCADING SKILL SET OVER HERE. SEOND PART IN FIRST SECTION*/
+
+
+
+.desc {
+    text-shadow: 2px 0px 2px rgb(255 0 255 / 50%), -2px 0px 2px rgb(0 255 191 / 50%), 0px 0px 10px rgb(49 122 255);
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+    font-size: 30px;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+
+
+.second {
+    height: 400px;  
+}
