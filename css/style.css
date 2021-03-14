@@ -17,10 +17,11 @@ h1, h2 {
     justify-content: center;
     align-items: center;
  height: 900px;
-    background-image: url('./photos/3163.jpg');
-    background-size: 1200px 900px;
-    opacity: 0.8;
+ background-image: url('../photos/3163.jpg');
+ background-size: 1200px 900px;
+ 
 }
+
 
 .header {
     align-self: center;
@@ -37,7 +38,18 @@ h1, h2 {
     vertical-align: baseline;
 }
 
+
+
+
+
 /* ADD THE CASCADING SKILL SET OVER HERE. SEOND PART IN FIRST SECTION*/
+
+.attri {
+    transition: color 1s linear,
+    font-size 750ms ease-in 100ms;
+}
+
+
 
 
 
@@ -49,6 +61,20 @@ h1, h2 {
     font-size: 30px;
     font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
 }
+
+/* THIS PERSONAL DESCRIPTION SHOULD INCREASE WHEN HOVERED OVER*/
+
+.desc:hover {
+    transition-property: font-size 40px;
+
+}
+
+
+
+
+
+
+
 
 
 
