@@ -92,6 +92,7 @@ h1, h2 {
    align-items: center; 
 
 
+
 }
 
 
@@ -250,16 +251,27 @@ h1, h2 {
 /* NEED TO ADD THE THREE FLEX ITEMS AND ADD STYLES WITHIN THEM  */
 
 .box{
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-around;
     background-color: #fff;
-    height: 200px;
+    height: 250px;
     padding: 20px;
-    width: 500px;
+    width: 550px;
     
 }
 
+.image-box {
+    background-color: aqua;
+    height: 250px;
+    width: 150px;
+}
 
-
-
+.text-box {
+    background-color: blue;
+    height: 250px;
+    width: 400px;
+}
 
 
 
