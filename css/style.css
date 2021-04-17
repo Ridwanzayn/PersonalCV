@@ -84,9 +84,15 @@ h1, h2 {
 
 .flex-container {
     display: flex;
-    
-}
 
+}
+.flex-container2 {
+    display: flex;
+   justify-content: space-around;
+   align-items: center; 
+
+
+}
 
 
 /*----------------------------------------------------------------*/
@@ -243,9 +249,13 @@ h1, h2 {
 
 /* NEED TO ADD THE THREE FLEX ITEMS AND ADD STYLES WITHIN THEM  */
 
-
-
-
+.box{
+    background-color: #fff;
+    height: 200px;
+    padding: 20px;
+    width: 500px;
+    
+}
 
 
 
