@@ -254,7 +254,7 @@ h1, h2 {
     flex-flow: row wrap;
     display: flex;
     justify-content: space-around;
-    background-color: #fff;
+ 
     height: 250px;
     padding: 20px;
     width: 550px;
@@ -262,15 +262,36 @@ h1, h2 {
 }
 
 .image-box {
-    background-color: aqua;
+
     height: 250px;
     width: 150px;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
 }
 
+
 .text-box {
-    background-color: blue;
     height: 250px;
     width: 400px;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.textsecond {
+    text-shadow: 2px 0px 2px rgb(255 0 255 / 50%), -2px 0px 2px rgb(0 255 191 / 50%), 0px 0px 10px rgb(49 122 255);
+    font-weight: 100;
+    letter-spacing: 0;
+    color: white;
+    font-size: 20px;
+    font-family: "lato", Helvetica, Arial, sans-serif;
+    z-index: 2;
 }
 
 
