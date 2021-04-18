@@ -299,20 +299,7 @@ h1, h2 {
 /*----------------------------------------------------------------*/
 /*----------------------------------------------------------------*/
 /*----------------------------------------------------------------*/
-/* THIS IS THE THIRD FLEX CONTAINER. */
-
-.third {
-    height: 900px;
-    background-color: black;
-    overflow: hidden;
-}
-
-
-
-/*----------------------------------------------------------------*/
-/*----------------------------------------------------------------*/
-/*----------------------------------------------------------------*/
-/* THIS IS THE FOURTH TIMELINE FLEX CONTAINER. */
+/* THIS IS THE THIRD FLEX CONTAINER WITH THE TIMELINE. */
 
 
 @import url("https://fonts.googleapis.com/css?family=Cardo|Pathway+Gothic+One");
@@ -405,6 +392,7 @@ h1, h2 {
   transition: 0.3s ease 0s;
   background-attachment: fixed;
   background-size: cover;
+  overflow:hidden;
 }
 .timeline-container:before {
   position: absolute;
