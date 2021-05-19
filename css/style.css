@@ -139,8 +139,8 @@ h1, h2 {
 
 .attri {
     z-index: 2;
-    text-shadow: 2px 0px 2px rgb(255 0 255 / 50%), -2px 0px 2px rgb(0 255 191 / 50%), 0px 0px 10px rgb(49 122 255);
-    font-weight: 350;
+   
+    font-weight: 500;
     letter-spacing: 0;
     color: #fff;
     font-size: 30px;
@@ -152,9 +152,9 @@ h1, h2 {
 /* ADD THE CASCADING TRANSITION HERE. 3 OR 4 SKILLS TO ROTATE*/
 .words:before {
     opacity: 1;
-    content: "OPTION ONE";
+    content: "Full-Stack Programmer";
     animation-name: replacement;
-    animation-duration: 9s;
+    animation-duration: 6s;
     animation-timing-function: ease-out;
     animation-iteration-count: infinite;
     animation-direction: absolute;
@@ -162,40 +162,19 @@ h1, h2 {
 }
 
 @keyframes replacement {
-    0% {
-        opacity: 1;
-    }
-    
-    16.67% {
-        opacity: 0;
-    }
-    
-    33.33% {
-        opacity: 1;
-        
-        
-    }
+
     34%{
-        content: "OPTION TWO";
+        content: "Technology Consultant";
     }
 
-    50% {
-        opacity: 0;
-    }
+
 
     66.67% {
         opacity: 1;
-        content:"OPTION THREE";
+        content:"Finance Graduate";
     }
 
-    83.34% {
-        opacity: 0;
-    }
 
-    100%{
-        opacity: 1;
-        
-    }
 }
 
 
@@ -205,13 +184,14 @@ h1, h2 {
 /* THIS IS THE LAST LINES OF TEXT THAT WILL SHOW A PERSONAL SUMMARY */
 
 .desc {
-    text-shadow: 2px 0px 2px rgb(255 0 255 / 50%), -2px 0px 2px rgb(0 255 191 / 50%), 0px 0px 10px rgb(49 122 255);
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0;
     color: #fff;
-    font-size: 30px;
+    font-size: 18px;
     font-family: "lato", Helvetica, Arial, sans-serif;
     z-index: 2;
+    width: 700px;
+    text-align: center;
 }
 
 /* THIS PERSONAL DESCRIPTION SHOULD INCREASE WHEN HOVERED OVER*/
@@ -285,11 +265,11 @@ h1, h2 {
 
 
 .textsecond {
-    text-shadow: 2px 0px 2px rgb(255 0 255 / 50%), -2px 0px 2px rgb(0 255 191 / 50%), 0px 0px 10px rgb(49 122 255);
+  
     font-weight: 100;
     letter-spacing: 0;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-family: "lato", Helvetica, Arial, sans-serif;
     z-index: 2;
 }
